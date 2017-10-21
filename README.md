@@ -5,7 +5,7 @@
 Overview
 ---
 
-In this project the goal is to implementing an Extended Kalman Filter with C++. The kalman filter estimate the state of a moving object of interest with noisy LIDAR and RADAR measurements, while  obtaining RMSE values that are very low. The communication between the project and the simulator is done using WebSocket.
+In this project the goal is to implement an Extended Kalman Filter with C++. The kalman filter estimate the state of a moving object of interest with noisy LIDAR and RADAR measurements, while obtaining RMSE values that are very low. The communication between the project and the simulator is done using WebSocket.
 
 This project involves the Udacity Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
 
