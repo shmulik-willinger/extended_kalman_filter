@@ -84,3 +84,8 @@ The video below shows what the simulator looks like when running with this Kalma
 * Estimation markers are green triangles
 
 [![video output](https://github.com/shmulik-willinger/extended_kalman_filter/blob/master/readme_img/dataset_1.gif)]
+
+comment:
+ In order for the project to run faster, I canceled the printing of the data during the running process. If you wish to see the data, please uncomment the following code:
+1. FusionEKF.cpp lines 163-164
+2. tools.cpp line 38
