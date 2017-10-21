@@ -54,7 +54,6 @@ void KalmanFilter::UpdateEKF(const VectorXd &z)
 	float vx = x_(2);
 	float vy = x_(3);
 
-	// Equations for h_func below
 	float rho = sqrt(px * px + py * py);
 	//to prevent division by zero
 	if (rho  < .00001)
